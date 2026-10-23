@@ -1,0 +1,45 @@
+{
+  "debut": {
+    "id": "debut",
+    "date": "12/04/2050",
+    "heure": "20:30",
+    "texte": " BIP, BIP BIP, BIP... \n\n Un de mes appareils aperçoit une anomalie dans le fond diffus cosmologique",
+    "choix": [
+      { "texte": "Chercher d'où vient le signal", "prochain": "recherche_signal" },
+      { "texte": "Fin de journée, il est l'heure de rentrer à la maison ", "prochain": "sortir_labo" }
+    ]
+  },
+  "recherche_signal": {
+    "id": "recherche_signal",
+    "date": "12/04/2050",
+    "heure": "20:40",
+    "texte": "Le signal semble provenir d'un système solaire nommé AX6732 BT. Une planète dans ce système solaire a été diagnositqué il y a des années comme semi-vivable là bas.",
+    "choix": [
+      { "texte": "Etudier le signal", "prochain": "etude_signal" },
+      { "texte": "Prevenir les autres scientifiques", "prochain": "scientifique_alert" }
+    ]
+  },
+  "sortir_labo": {
+    "id": "sortir_labo",
+    "texte": "Vous quittez le laboratoire et vous retrouvez à l'extérieur. La nuit est tombée.",
+    "choix": [
+      { "texte": "Regarder les étoiles", "prochain": "regarder_etoiles" },
+      { "texte": "Rentrer chez soi", "prochain": "rentrer_chez_soi" }
+    ]
+  },
+  "forcer_porte": {
+    "id": "forcer_porte",
+    "texte": "La porte cède sous votre poids ! Vous tombez dans un couloir éclairé par des torches.",
+    "choix": []
+  },
+  "fenetre": {
+    "id": "fenetre",
+    "texte": "Vous sortez par la fenêtre et atterrissez dans un jardin. Des ombres bougent au loin...",
+    "choix": []
+  },
+  "ignorer_voix": {
+    "id": "ignorer_voix",
+    "texte": "La voix se tait. Vous restez seul dans le noir pour toujours... (FIN)",
+    "choix": []
+  }
+}

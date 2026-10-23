@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.local
+*.db
+*.db-shm
+*.db-wal
+*.log
+.DS_Store
+__pycache__/
+venv/
+.venv*/
+cache/
+output/
+*.bak*
